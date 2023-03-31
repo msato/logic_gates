@@ -1,5 +1,7 @@
+///////
 //! This is a logic gates simulation crate biold to demonstrate writing unit tests and integrate
 // logic_gates/src/lib.rs
+//////
 pub fn and ( a:u8 , b:u8)->u8{
     match (a, b){
         (1, 1) => 1,
